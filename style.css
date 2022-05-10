@@ -1,0 +1,127 @@
+/* Get new font */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+/* PRODUCT */
+.product {
+  background-color: rgb(247, 247, 247);
+  border-radius: 12px;
+  margin: 3rem auto;
+  width: 85%;
+  max-width: 900px;
+  overflow: hidden;
+}
+
+.product-title {
+  max-width: 70%;
+  margin: 2rem auto;
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  height: 250px;
+  width: auto;
+  border-radius: 12px;
+}
+
+.info-container {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* PRODUCT INFORMATION */
+.price {
+  font-size: 24px;
+  max-width: 250px;
+  margin: 1rem auto;
+}
+
+.tagline {
+  max-width: 80%;
+}
+
+.shipping {
+  font-size: 12px;
+  margin-top: 0.25rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(101, 176, 84);
+}
+
+.more-info,
+.more-info:link,
+.more-info:visited {
+  display: inline-block;
+  margin-top: 0.25rem;
+  color: #000;
+}
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+
+/* PRODUCT DETAILS */
+
+.details-title-container {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.details-title-container > .material-icons {
+  margin-left: 8px;
+  transition: 0.2s all;
+}
+
+.details-title-container > .material-icons:hover {
+  cursor: pointer;
+  transform: translatey(-3px);
+  transition: 0.2s all;
+}
+
+.details-title {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.details-list {
+  list-style: square;
+  margin-left: 1rem;
+}
+
+/* BUTTON */
+.add-cart {
+  width: 100%;
+  background-color: rgb(207, 115, 23);
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-bottom: 2px solid rgb(207, 115, 23);
+}
+
+.add-cart:hover {
+  color: #000;
+  background-color: rgb(247, 247, 247);
+  border-bottom: 1px solid #fff;
+}
